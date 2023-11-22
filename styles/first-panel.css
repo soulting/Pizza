@@ -1,0 +1,138 @@
+.first-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-image: url("..\\images\\first-background.jpg");
+  background-size: cover;
+  height: 100vh;
+  border-radius: 50px;
+}
+
+.news-window {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  width: 75%;
+  height: 75%;
+  border-radius: 25px;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.left-news {
+  display: flex;
+  flex: 1;
+  border: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-news {
+  display: flex;
+  flex: 1;
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-news-window {
+  display: flex;
+  flex: 8;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  position: relative;
+}
+
+.news {
+  color: white;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-right: 5vw;
+}
+
+.points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  padding: 10vw;
+}
+
+.point {
+  height: 80%;
+  transition: 0.4s;
+}
+
+.point:hover {
+  height: 100%;
+}
+
+.left-arrow {
+  width: 100%;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.left-arrow:hover {
+  width: 120%;
+}
+
+.right-arrow {
+  width: 100%;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.right-arrow:hover {
+  width: 120%;
+}
+
+.slide {
+  position: absolute;
+}
+
+[data-activ="acv"] {
+  transition: 1.7s;
+  opacity: 1;
+}
+
+[data-activ="nacv"] {
+  opacity: 0;
+}
+
+ol {
+  list-style: none;
+}
+
+@media (max-width: 600px) {
+  .first-panel {
+    border-radius: 0px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+
+  .news-window {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+
+  [data-big] {
+    display: none;
+  }
+}

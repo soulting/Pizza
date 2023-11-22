@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <title>Pizzeria Duet</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Pizzeria Duet - Delicious pizza and more"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" href="../images/pizza.png" type="pizza/png" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <img class="logo" src="/images/logo.png" />
+        <div class="buttons">
+          <button id="home" class="button">HOME</button>
+          <button id="menu" class="button">MENU</button>
+          <button id="offers" class="button">OFERTY</button>
+          <button id="contact" class="button">KONTAKT</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first-panel">
+        <div class="news-window">
+          <button class="left-news" data-big>
+            <img class="left-arrow" src="images/left-arrow.png" />
+          </button>
+          <div class="inner-news-window">
+            <ol class="slides">
+              <li class="slide" data-activ="acv">
+                <p class="news">
+                  1. Design a vibrant logo for a pizza place set against a white
+                  background. Utilize a color scheme of yellow and orange.
+                  Feature a cheerful, bald character wearing a white t-shirt,
+                  holding a delicious pizza with evident joy. Capture the
+                  essence of a positive and inviting atmosphere for the pizza
+                  establishment.
+                </p>
+              </li>
+              <li class="slide" data-activ="nacv">
+                <p class="news">
+                  2. Generate a sculptural representation blending the stoic
+                  wisdom of Marcus Aurelius with a robotic aesthetic. Craft an
+                  image resembling a classical sculpture of Marcus Aurelius,
+                  seamlessly integrated with robotic elements to symbolize the
+                  fusion of ancient philosophy and futuristic technology.
+                </p>
+              </li>
+              <li class="slide" data-activ="nacv">
+                <p class="news">
+                  3. Create a sculptural depiction merging the stoic philosophy
+                  with the aesthetics of a robot. Craft an image resembling a
+                  classical sculpture of a stoic philosopher seamlessly fused
+                  with the mechanical and futuristic elements of a robot,
+                  symbolizing the convergence of timeless wisdom and
+                  cutting-edge technology.
+                </p>
+              </li>
+              <li class="slide" data-activ="nacv">
+                <p class="news">
+                  4. Generate an image depicting the stoicism of our times.
+                  Capture the essence of modern stoicism in the face of
+                  challenges, portraying resilience, introspection, and a quiet
+                  strength amidst the complexities of contemporary life.
+                </p>
+              </li>
+            </ol>
+            <ol class="points">
+              <li class="point">
+                <img
+                  class="point"
+                  data-point="acv"
+                  src="images/period-selected.png"
+                />
+              </li>
+              <li class="point">
+                <img class="point" data-point="nacv" src="images/period.png" />
+              </li>
+              <li class="point">
+                <img class="point" data-point="nacv" src="images/period.png" />
+              </li>
+              <li class="point">
+                <img class="point" data-point="nacv" src="images/period.png" />
+              </li>
+            </ol>
+          </div>
+          <button class="right-news" data-big>
+            <img class="right-arrow" src="images/right-arrow.png" />
+          </button>
+        </div>
+      </section>
+      <section class="second-panel">
+        <div class="menu">MENU</div>
+        <div class="selectors">
+          <button class="selector" data-pizzaButton>pizza</button>
+          <button class="selector" data-setButton>zestawy obiadowe</button>
+          <button class="selector" data-ffButton>fast-food</button>
+          <button class="selector" data-spButton>spaghetti</button>
+          <button class="selector" data-salButton>sałatki</button>
+        </div>
+        <div class="dishes">
+          <div class="dish" data-pizza>
+            <img class="food-img" src="foods/pizza.avif" />
+            <div class="dish-info">
+              <div class="name">Margharita</div>
+              <div class="descryption">sos, ser</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">30cm</p>
+                  <p class="item">40cm</p>
+                  <p class="item">50cm</p>
+                </div>
+                <div class="prices">
+                  <p class="item">16,50zł</p>
+                  <p class="item">22zł</p>
+                  <p class="item">32zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-pizza>
+            <img class="food-img" src="foods/pizza.avif" />
+            <div class="dish-info">
+              <div class="name">Funghi</div>
+              <div class="descryption">sos, ser, pieczarki</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">30cm</p>
+                  <p class="item">40cm</p>
+                  <p class="item">50cm</p>
+                </div>
+                <div class="prices">
+                  <p class="item">17,50zł</p>
+                  <p class="item">23zł</p>
+                  <p class="item">33zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-pizza>
+            <img class="food-img" src="foods/pizza.avif" />
+            <div class="dish-info">
+              <div class="name">Amore</div>
+              <div class="descryption">sos, ser, salami</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">30cm</p>
+                  <p class="item">40cm</p>
+                  <p class="item">50cm</p>
+                </div>
+                <div class="prices">
+                  <p class="item">17,50zł</p>
+                  <p class="item">23zł</p>
+                  <p class="item">33zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-pizza>
+            <img class="food-img" src="foods/pizza.avif" />
+            <div class="dish-info">
+              <div class="name">Capricciosa</div>
+              <div class="descryption">sos, ser, szynka, pieczarki</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">30cm</p>
+                  <p class="item">40cm</p>
+                  <p class="item">50cm</p>
+                </div>
+                <div class="prices">
+                  <p class="item">19,50zł</p>
+                  <p class="item">26zł</p>
+                  <p class="item">36zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-pizza>
+            <img class="food-img" src="foods/pizza.avif" />
+            <div class="dish-info">
+              <div class="name">Hawajska</div>
+              <div class="descryption">sos, ser, szunka, ananas</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">30cm</p>
+                  <p class="item">40cm</p>
+                  <p class="item">50cm</p>
+                </div>
+                <div class="prices">
+                  <p class="item">19,50zł</p>
+                  <p class="item">26zł</p>
+                  <p class="item">36zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-pizza>
+            <img class="food-img" src="foods/pizza.avif" />
+            <div class="dish-info">
+              <div class="name">Princessa</div>
+              <div class="descryption">sos, ser, krewetki, ananas</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">30cm</p>
+                  <p class="item">40cm</p>
+                  <p class="item">50cm</p>
+                </div>
+                <div class="prices">
+                  <p class="item">19,50zł</p>
+                  <p class="item">26zł</p>
+                  <p class="item">36zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-pizza>
+            <img class="food-img" src="foods/pizza.avif" />
+            <div class="dish-info">
+              <div class="name">Antonio</div>
+              <div class="descryption">sos, ser, pieczarki, tuńczyk</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">30cm</p>
+                  <p class="item">40cm</p>
+                  <p class="item">50cm</p>
+                </div>
+                <div class="prices">
+                  <p class="item">19,50zł</p>
+                  <p class="item">26zł</p>
+                  <p class="item">36zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-set>
+            <img class="food-img" src="foods/nuggets.jpg" />
+            <div class="dish-info">
+              <div class="name">Nuggetsy</div>
+              <div class="descryption"></div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">10 sztuk</p>
+                </div>
+                <div class="prices">
+                  <p class="item">11,50zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-set>
+            <img class="food-img" src="foods/nuggets-fries.jpg" />
+            <div class="dish-info">
+              <div class="name">Nuggetsy z frytkami</div>
+              <div class="descryption"></div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">10 sztuk + frytki</p>
+                </div>
+                <div class="prices">
+                  <p class="item">16,50zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-set>
+            <img class="food-img" src="foods/shoarma.jpg" />
+            <div class="dish-info">
+              <div class="name">Shoarma</div>
+              <div class="descryption"></div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item">240g + surówka, frytki</p>
+                </div>
+                <div class="prices">
+                  <p class="item">16,50zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-sp>
+            <img class="food-img" src="foods/spaghetti-b.png" />
+            <div class="dish-info">
+              <div class="name">Spaghetti Bolognese</div>
+              <div class="descryption">
+                por, papryka, marchewka, mięso mielone, przyprawy
+              </div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item"></p>
+                </div>
+                <div class="prices">
+                  <p class="item">15zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-sp>
+            <img class="food-img" src="foods/spaghetti-c.webp" />
+            <div class="dish-info">
+              <div class="name">Spaghetti Carbonara</div>
+              <div class="descryption">boczek, cebula, śmietana</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item"></p>
+                </div>
+                <div class="prices">
+                  <p class="item">15zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-sal>
+            <img class="food-img" src="foods/sałatka-w.jpg" />
+            <div class="dish-info">
+              <div class="name">Sałatka wegetariańska</div>
+              <div class="descryption">kapusta</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item"></p>
+                </div>
+                <div class="prices">
+                  <p class="item">16,50zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dish" data-sal>
+            <img class="food-img" src="foods/sałatka-m.avif" />
+            <div class="dish-info">
+              <div class="name">Sałatka z mięsem</div>
+              <div class="descryption">kapusta, kurak</div>
+              <div class="pricing">
+                <div class="sizes">
+                  <p class="item"></p>
+                </div>
+                <div class="prices">
+                  <p class="item">16,50zł</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="third-panel">
+        <div class="offers-header">OFERTY</div>
+        <div class="promo">
+          <img class="promo-img" src="images/2pizza.jpg" />
+          <div class="text-box">
+            <p class="title">Bierz więcej, płać mniej!!!</p>
+            <p class="description">
+              Przy zakupie 2 pizza, druga pizza 50% taniej
+            </p>
+          </div>
+        </div>
+        <div class="promo">
+          <img class="promo-img" src="images/hot-beef-burger-set.jpg" />
+          <div class="text-box">
+            <p class="title">Środowy burger!!!</p>
+            <p class="description">
+              Przy zakupie burgera w środę, napój gratis
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="fourth-panel">
+        <div class="info-panel">
+          <div class="pane-header">KONTAKT</div>
+          <div class="infos">
+            <div class="panel-text-header">godziny otwarcia</div>
+            <div class="days">
+              <div class="info">
+                <p>poniedziałek - sobota</p>
+                <p>11:00 - 21:30</p>
+              </div>
+              <div class="info">
+                <p>niedziela</p>
+                <p>12:00 - 21:30</p>
+              </div>
+            </div>
+
+            <div class="panel-text-header">numer telefonu</div>
+            <div class="info">123 456 789</div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script src="selector.js"></script>
+    <script src="carousel.js"></script>
+    <script src="navbar.js"></script>
+  </body>
+</html>
