@@ -14,7 +14,7 @@
 
 .news-window {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-top: 5%;
   width: 75%;
   height: 75%;
@@ -51,7 +51,6 @@
   flex: 8;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: rgba(0, 0, 0, 0.7); */
   position: relative;
 }
 
