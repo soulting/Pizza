@@ -12,7 +12,7 @@ function changeSlide(index) {
 }
 
 function startSlides() {
-  const slideChange = setInterval(function () {
+  const slideChange = setInterval(() => {
     const curSlide = document.querySelector(`[data-activ="acv"]`);
     let index = [...sliders.children].indexOf(curSlide);
     let newIndex = index;
@@ -33,7 +33,7 @@ const points = document.querySelector(".points");
 
 let slideChange = startSlides();
 
-prevButton.addEventListener("click", function () {
+prevButton.addEventListener("click", () => {
   const curSlide = document.querySelector(`[data-activ="acv"]`);
   let index = [...sliders.children].indexOf(curSlide);
   let newIndex = index;
@@ -46,7 +46,7 @@ prevButton.addEventListener("click", function () {
   changeSlide(newIndex);
 });
 
-nextButton.addEventListener("click", function () {
+nextButton.addEventListener("click", () => {
   const curSlide = document.querySelector(`[data-activ="acv"]`);
   let index = [...sliders.children].indexOf(curSlide);
   let newIndex = index;

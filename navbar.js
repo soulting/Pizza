@@ -8,18 +8,18 @@ const secondPanel = document.querySelector(".second-panel");
 const thirdPanel = document.querySelector(".third-panel");
 const fourthPanel = document.querySelector(".fourth-panel");
 
-homeButton.addEventListener("click", function () {
-  firstPanel.scrollIntoView({ behavior: "smooth" });
-});
+homeButton.addEventListener("click", () =>
+  firstPanel.scrollIntoView({ behavior: "smooth" })
+);
 
-menuButton.addEventListener("click", function () {
-  secondPanel.scrollIntoView({ behavior: "smooth" });
-});
+menuButton.addEventListener("click", () =>
+  secondPanel.scrollIntoView({ behavior: "smooth" })
+);
 
-offersButton.addEventListener("click", function () {
-  thirdPanel.scrollIntoView({ behavior: "smooth" });
-});
+offersButton.addEventListener("click", () =>
+  thirdPanel.scrollIntoView({ behavior: "smooth" })
+);
 
-contactButton.addEventListener("click", function () {
-  fourthPanel.scrollIntoView({ behavior: "smooth" });
-});
+contactButton.addEventListener("click", () =>
+  fourthPanel.scrollIntoView({ behavior: "smooth" })
+);

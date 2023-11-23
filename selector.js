@@ -13,25 +13,25 @@ const spList = document.querySelectorAll("[data-sp]");
 const salButton = document.querySelector("[data-salButton]");
 const salList = document.querySelectorAll("[data-sal]");
 
-pizzaButton.addEventListener("click", function () {
-  toggleListVisibility(pizzaList, pizzaButton);
-});
+pizzaButton.addEventListener("click", () =>
+  toggleListVisibility(pizzaList, pizzaButton)
+);
 
-setButton.addEventListener("click", function () {
-  toggleListVisibility(setList, setButton);
-});
+setButton.addEventListener("click", () =>
+  toggleListVisibility(setList, setButton)
+);
 
-ffButton.addEventListener("click", function () {
-  toggleListVisibility(ffList, ffButton);
-});
+ffButton.addEventListener("click", () =>
+  toggleListVisibility(ffList, ffButton)
+);
 
-spButton.addEventListener("click", function () {
-  toggleListVisibility(spList, spButton);
-});
+spButton.addEventListener("click", () =>
+  toggleListVisibility(spList, spButton)
+);
 
-salButton.addEventListener("click", function () {
-  toggleListVisibility(salList, salButton);
-});
+salButton.addEventListener("click", () =>
+  toggleListVisibility(salList, salButton)
+);
 
 function toggleListVisibility(list, button) {
   list.forEach((element) => {
