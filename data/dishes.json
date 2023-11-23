@@ -1,0 +1,94 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Margharita",
+      "ingredients": ["sos", "ser"],
+      "image": "margharita.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Funghi",
+      "ingredients": ["sos", "ser", "pieczarki"],
+      "image": "funghi.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Amore",
+      "ingredients": ["sos", "ser", "salami"],
+      "image": "amore.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Capricciosa",
+      "ingredients": ["sos", "ser", "szynka", "pieczarki"],
+      "image": "capricciosa.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Hawajska",
+      "ingredients": ["sos", "ser", "szynka", "ananas"],
+      "image": "hawajska.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Princessa",
+      "ingredients": ["sos", "ser", "krewetki", "ananas"],
+      "image": "princessa.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Antonio",
+      "ingredients": ["sos", "ser", "pieczarki", "tuńczyk"],
+      "image": "antonio.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Nuggetsy",
+      "ingredients": ["kurczak", "panierka"],
+      "image": "nuggetsy.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Nuggetsy z frytkami",
+      "ingredients": ["kurczak", "panierka"],
+      "image": "nuggetsy_z_frytkami.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Shoarma",
+      "ingredients": [],
+      "image": "shoarma.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Spaghetti Bolognese",
+      "ingredients": [
+        "por",
+        "papryka",
+        "marchewka",
+        "mięso mielone",
+        "przyprawy"
+      ],
+      "image": "spaghetti_bolognese.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Spaghetti Carbonara",
+      "ingredients": ["boczek", "cebula", "śmietana"],
+      "image": "spaghetti_carbonara.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Sałatka wegetariańska",
+      "ingredients": ["kapusta"],
+      "image": "salatka_wegetarianska.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Sałatka z mięsem",
+      "ingredients": ["kapusta", "kurak"],
+      "image": "salatka_z_miesem.jpg"
+    }
+  ]
+}

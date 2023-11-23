@@ -1,3 +1,17 @@
+function toggleListVisibility(list, button) {
+  list.forEach((element) => {
+    if (element.style.display === "flex") {
+      element.style.display = "none";
+      button.style.backgroundColor = "white";
+      button.style.color = "rgb(247, 131, 7)";
+    } else {
+      element.style.display = "flex";
+      button.style.backgroundColor = "rgb(247, 131, 7)";
+      button.style.color = "white";
+    }
+  });
+}
+
 const pizzaButton = document.querySelector("[data-pizzaButton]");
 const pizzaList = document.querySelectorAll("[data-pizza]");
 
@@ -32,17 +46,3 @@ spButton.addEventListener("click", () =>
 salButton.addEventListener("click", () =>
   toggleListVisibility(salList, salButton)
 );
-
-function toggleListVisibility(list, button) {
-  list.forEach((element) => {
-    if (element.style.display === "flex") {
-      element.style.display = "none";
-      button.style.backgroundColor = "white";
-      button.style.color = "rgb(247, 131, 7)";
-    } else {
-      element.style.display = "flex";
-      button.style.backgroundColor = "rgb(247, 131, 7)";
-      button.style.color = "white";
-    }
-  });
-}
