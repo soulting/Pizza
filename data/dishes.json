@@ -4,61 +4,71 @@
       "id": 1,
       "name": "Margharita",
       "ingredients": ["sos", "ser"],
-      "image": "margharita.jpg"
+      "image": "margharita.jpg",
+      "description": "Klasyczna pizza, która kusi prostotą i smakiem. Delikatny sos pomidorowy idealnie komponuje się z roztopionym serem, tworząc harmonię smakową."
     },
     {
       "id": 2,
       "name": "Funghi",
       "ingredients": ["sos", "ser", "pieczarki"],
-      "image": "funghi.jpg"
+      "image": "funghi.jpg",
+      "description": "Pizza dla miłośników grzybów. Sos pomidorowy, ser i świeże, aromatyczne pieczarki tworzą kompozycję smakową, która oczaruje każde podniebienie."
     },
     {
       "id": 3,
       "name": "Amore",
       "ingredients": ["sos", "ser", "salami"],
-      "image": "amore.jpg"
+      "image": "amore.png",
+      "description": "Pizza pełna miłości do intensywnego smaku. Sos pomidorowy, gęsty ser i pikantne salami łączą się w wyjątkową kompozycję, która rozbudzi Twoje kubki smakowe."
     },
     {
       "id": 4,
       "name": "Capricciosa",
       "ingredients": ["sos", "ser", "szynka", "pieczarki"],
-      "image": "capricciosa.jpg"
+      "image": "capricciosa.webp",
+      "description": "Połączenie klasycznych składników w nowoczesnej formie. Sos pomidorowy, ser, szynka i pieczarki tworzą harmonijną całość, idealną dla tych, którzy cenią tradycję z nutką nowoczesności."
     },
     {
       "id": 5,
       "name": "Hawajska",
       "ingredients": ["sos", "ser", "szynka", "ananas"],
-      "image": "hawajska.jpg"
+      "image": "hawajska.jpg",
+      "description": "Pizza dla miłośników kontrastów. Sos pomidorowy, ser, szynka i soczysty ananas tworzą połączenie słodko-słone, które sprawia, że ta pizza to prawdziwa uczta smaków."
     },
     {
       "id": 6,
       "name": "Princessa",
       "ingredients": ["sos", "ser", "krewetki", "ananas"],
-      "image": "princessa.jpg"
+      "image": "princessa.png",
+      "description": "Wyjątkowa pizza, która łączy w sobie egzotyczne smaki. Sos pomidorowy, ser, delikatne krewetki i słodki ananas tworzą kompozycję, która przeniesie Cię w podróż po smakach."
     },
     {
       "id": 7,
       "name": "Antonio",
       "ingredients": ["sos", "ser", "pieczarki", "tuńczyk"],
-      "image": "antonio.jpg"
+      "image": "antonio.jpg",
+      "description": "Pizza dla miłośników intensywnych smaków. Sos pomidorowy, ser, pieczarki i tuńczyk łączą się w wyrazisty smakowy akcent, który zaskoczy Twoje kubki smakowe."
     },
     {
       "id": 8,
       "name": "Nuggetsy",
       "ingredients": ["kurczak", "panierka"],
-      "image": "nuggetsy.jpg"
+      "image": "nuggets.jpg",
+      "description": "Idealna przekąska dla wszystkich, którzy kochają soczyste kawałki kurczaka w chrupiącej panierce. Prosta, ale zawsze smakowita propozycja."
     },
     {
       "id": 9,
       "name": "Nuggetsy z frytkami",
       "ingredients": ["kurczak", "panierka"],
-      "image": "nuggetsy_z_frytkami.jpg"
+      "image": "nuggets-fries.jpg",
+      "description": "Klasyczne nuggetsy podane w towarzystwie chrupiących frytek. Propozycja dla tych, którzy nie boją się zaspokoić swojego głodu."
     },
     {
       "id": 10,
       "name": "Shoarma",
       "ingredients": [],
-      "image": "shoarma.jpg"
+      "image": "shoarma.jpg",
+      "description": "Danie z mięsa (240g) podane z surówką i frytkami. Propozycja dla miłośników intensywnych smaków mięsa, podkreślonych świeżością surówki i chrupkością frytek."
     },
     {
       "id": 11,
@@ -70,25 +80,29 @@
         "mięso mielone",
         "przyprawy"
       ],
-      "image": "spaghetti_bolognese.jpg"
+      "image": "spaghetti-b.png",
+      "description": "Klasyczne danie włoskie, w którym makaron świetnie komponuje się z sosem mięsnym, zawierającym por, paprykę, marchewkę, mięso mielone i aromatyczne przyprawy."
     },
     {
       "id": 12,
       "name": "Spaghetti Carbonara",
       "ingredients": ["boczek", "cebula", "śmietana"],
-      "image": "spaghetti_carbonara.jpg"
+      "image": "spaghetti-c.webp",
+      "description": "Propozycja dla miłośników kremowych sosów. Makaron w towarzystwie sosu śmietanowego z dodatkiem boczku i cebuli to kombinacja, która zaskoczy Cię bogactwem smaku."
     },
     {
       "id": 13,
       "name": "Sałatka wegetariańska",
       "ingredients": ["kapusta"],
-      "image": "salatka_wegetarianska.jpg"
+      "image": "salatka-w.jpg",
+      "description": "Lekka i orzeźwiająca sałatka dla miłośników warzyw. Skomponowana z kiszonej kapusty, doskonale sprawdzi się jako dodatek do głównego dania."
     },
     {
       "id": 14,
       "name": "Sałatka z mięsem",
-      "ingredients": ["kapusta", "kurak"],
-      "image": "salatka_z_miesem.jpg"
+      "ingredients": ["kapusta", "kurczak"],
+      "image": "salatka-m.avif",
+      "description": "Połączenie chrupiącej kiszonej kapusty z kawałkami soczystego kurczaka. Smakowita i sycąca propozycja dla tych, którzy cenią sobie zdrowe połączenie mięsa i warzyw."
     }
   ]
 }

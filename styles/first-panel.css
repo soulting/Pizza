@@ -14,7 +14,6 @@
 
 .news-window {
   display: flex;
-  /* flex-direction: column; */
   margin-top: 5%;
   width: 75%;
   height: 75%;
